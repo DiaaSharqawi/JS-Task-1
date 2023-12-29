@@ -1,0 +1,52 @@
+
+body{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+
+}
+
+.demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: seagreen;
+    border-radius: 20px;
+    height: 80px;
+    width: 300px;
+    color:whitesmoke;
+}
+
+.vip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: skyblue;
+    border-radius: 20px;
+    height: 80px;
+    width: 300px;
+    color:whitesmoke;
+}
+
+.footerCopyRight{
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+    animation:  moveRight linear 2s infinite alternate;
+    
+}
+
+@keyframes moveRight {
+    50% {
+      transform: translateX(200px);
+    }
+    100% {
+      transform: translateX(-200px);
+    }
+  }
